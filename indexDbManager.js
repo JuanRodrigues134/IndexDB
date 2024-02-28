@@ -44,7 +44,6 @@ sap.ui.define([], function () {
       };
     },
     
-    /
     async putObjectStore(storeName, data) {
       await this._DBPromisse(
         db
